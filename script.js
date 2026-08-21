@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
     toastTimer = window.setTimeout(() => toast.classList.remove("show"), 3800);
   };
 
-  const PORTFOLIO_EMAIL = ""; // Add your email address here.
+  const PORTFOLIO_EMAIL = "zeeshanfazili7@gmail.com"; // Add your email address here.
   const contactForm = document.querySelector("[data-contact-form]");
   contactForm?.addEventListener("submit", (event) => {
     event.preventDefault();
